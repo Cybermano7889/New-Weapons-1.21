@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "newweapons",
+	"version": "${version}",
+	"name": "New Weapons",
+	"description": "Adds new weapons to the game.",
+	"authors": [
+		"Cybermano!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/newweapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cyber.newweapons.NewWeapons"
+		],
+		"fabric-datagen": [
+			"net.cyber.newweapons.NewWeaponsDataGenerator"
+		],
+		"client": [
+			"net.cyber.newweapons.NewWeaponsClient"
+		]
+	},
+	"mixins": [
+		"newweapons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
