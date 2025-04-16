@@ -1,5 +1,6 @@
 package net.cyber.newweapons;
 
+import net.cyber.newweapons.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class NewWeapons implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
