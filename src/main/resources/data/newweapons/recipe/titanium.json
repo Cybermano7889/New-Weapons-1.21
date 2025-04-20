@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "newweapons:titanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "newweapons:titanium"
+  }
+}

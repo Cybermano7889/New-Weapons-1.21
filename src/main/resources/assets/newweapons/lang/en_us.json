@@ -1,4 +1,11 @@
 {
   "item.newweapons.titanium": "Titanium Ingot",
-  "item.newweapons.raw_titanium": "Raw Titanium"
+  "item.newweapons.raw_titanium": "Raw Titanium",
+
+  "block.newweapons.titanium_block": "Block of Titanium",
+  "block.newweapons.titanium_ore": "Titanium Ore",
+  "block.newweapons.deepslate_titanium_ore": "Deepslate Titanium Ore",
+
+  "itemgroup.newweapons.titanium_blocks": "Titanium Blocks",
+  "itemgroup.newweapons.titanium_items": "Titanium Items"
 }

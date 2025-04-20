@@ -20,9 +20,5 @@ public class ModItems {
     public static void registerModItems() {
         NewWeapons.LOGGER.info("Registering Mod Items for " + NewWeapons.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(TITANIUM);
-            entries.add(RAW_TITANIUM);
-        });
     }
 }

@@ -1,5 +1,7 @@
 package net.cyber.newweapons;
 
+import net.cyber.newweapons.block.ModBlocks;
+import net.cyber.newweapons.item.ModItemGroups;
 import net.cyber.newweapons.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +15,9 @@ public class NewWeapons implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
